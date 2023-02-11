@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="MyRun1" project="bddFrameworkDemo" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="testRunners.MyRun1" time="0.004">
+    <testsuite name="Feature: AmazonLogin" time="0.003">
+      <testcase name="Login functionality Test" classname="AmazonLogin" time="0.003">
+        <skipped>cucumber.runtime.junit.UndefinedThrowable: The step "user launch chrome browser" is undefined&#13;
+&#13;
+cucumber.runtime.junit.UndefinedThrowable: The step "user opens url "http://amazon.com"" is undefined&#13;
+&#13;
+cucumber.runtime.junit.UndefinedThrowable: The step "user click on signin button" is undefined&#13;
+&#13;
+cucumber.runtime.junit.UndefinedThrowable: The step "user enter email as "mizba24@gmail.com"" is undefined&#13;
+&#13;
+cucumber.runtime.junit.UndefinedThrowable: The step "user click on continue button" is undefined&#13;
+&#13;
+cucumber.runtime.junit.UndefinedThrowable: The step "user enter password as "mizba123"" is undefined&#13;
+&#13;
+cucumber.runtime.junit.UndefinedThrowable: The step "user click on Login button" is undefined&#13;
+&#13;
+cucumber.runtime.junit.UndefinedThrowable: The step "page url should be "http://www.amazon.com/?ref_=nav_ya_signin&amp;"" is undefined&#13;
+&#13;
+</skipped>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

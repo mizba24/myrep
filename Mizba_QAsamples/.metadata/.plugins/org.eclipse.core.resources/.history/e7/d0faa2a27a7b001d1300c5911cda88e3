@@ -1,0 +1,10 @@
+package swdDemos;
+
+public class LinkText_PartialLTDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
