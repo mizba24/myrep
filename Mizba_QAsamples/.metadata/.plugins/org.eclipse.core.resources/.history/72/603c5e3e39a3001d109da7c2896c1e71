@@ -1,0 +1,9 @@
+package pomTests;
+
+import org.testng.annotations.Test;
+
+public class EbayProdCatSearchTest {
+  @Test
+  public void f() {
+  }
+}

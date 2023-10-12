@@ -1,0 +1,9 @@
+package testNGDemos;
+
+import org.testng.annotations.Test;
+
+public class MultiTestDemo {
+  @Test
+  public void f() {
+  }
+}

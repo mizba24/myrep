@@ -1,0 +1,33 @@
+package oopsDemos;
+
+import java.util.ArrayList;
+
+public class UsingCollections {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ArrayList aList=new ArrayList();
+		
+		aList.add(10);
+		aList.add("java");
+		aList.add(false);
+		System.out.println("no.of items in list" + aList.size());
+		for(Object item : aList)
+		{
+			System.out.print("Items are :" + item );
+		}
+		aList.add(2, "programs");
+		
+		System.out.println("3rd item in list" + aList.get(2));
+		for(Object item : aList)
+		{
+			System.out.print("Items are :" + item + " ");
+		}
+		aList.remove(1);
+		for(Object item : aList)
+		{
+			System.out.print("Items are :" + item + " ");
+		}
+	}
+
+}

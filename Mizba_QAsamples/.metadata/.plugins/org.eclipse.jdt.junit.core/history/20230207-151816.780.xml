@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="MyRun1" project="bddFrameworkDemo" tests="1" started="1" failures="1" errors="0" ignored="0">
+  <testsuite name="testRunners.MyRun1" time="11.741">
+    <testsuite name="Feature: AmazonLogin" time="11.741">
+      <testcase name="Login functionality Test" classname="AmazonLogin" time="11.741">
+        <failure>
+          <expected>http://www.amazon.com/?ref_=nav_ya_signin&amp;</expected>
+          <actual>https://www.amazon.com/ap/signin</actual>
+          org.junit.ComparisonFailure: expected:&lt;http[://www.amazon.com/?ref_=nav_ya_signin&amp;]&gt; but was:&lt;http[s://www.amazon.com/ap/signin]&gt;&#13;
+	at org.junit.Assert.assertEquals(Assert.java:117)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:146)&#13;
+	at stepDefnitions.steps.page_url_should_be(steps.java:66)&#13;
+	at ✽.page url should be "http://www.amazon.com/?ref_=nav_ya_signin&amp;"(file:Features/login.feature:10)&#13;
+&#13;
+
+        </failure>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

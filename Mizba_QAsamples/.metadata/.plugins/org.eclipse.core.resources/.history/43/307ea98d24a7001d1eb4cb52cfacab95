@@ -1,0 +1,11 @@
+ Feature: AmazonLogin
+ Scenario: Login functionality Test
+ Given user launch chrome browser
+ When user opens url "http://amazon.com"
+ And user click on signin button
+ And user enter email as "venkatbj@yahoo.com"
+ And user click on continue button
+ And user enter password as "Bujji@123"
+ And user click on Login button
+ Then page url should be "http://www.amazon.com/?ref_=nav_ya_signin&"
+ 

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="MyRun1" project="bddFrameworkDemo" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="testRunners.MyRun1" time="0.003">
+    <testsuite name="Feature: AmazonLogin" time="0.003">
+      <testcase name="Login functionality Test" classname="AmazonLogin" time="0.002">
+        <skipped>cucumber.runtime.junit.SkippedThrowable: This scenario is skipped&#13;
+&#13;
+</skipped>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

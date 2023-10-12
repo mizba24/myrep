@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="MyRun1" project="bddFrameworkDemo" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="testRunners.MyRun1" time="0.001">
+    <testcase name="initializationError" classname="testRunners.MyRun1" time="0.001">
+      <error>cucumber.runtime.CucumberException: Failed to parse resource at: file:Features/login.feature&#13;
+	at cucumber.runtime.model.FeatureParser.parseResource(FeatureParser.java:40)&#13;
+	at cucumber.runtime.model.FeatureBuilder.parse(FeatureBuilder.java:25)&#13;
+	at cucumber.runtime.model.FeatureLoader.loadFromFeaturePath(FeatureLoader.java:36)&#13;
+	at cucumber.runtime.model.FeatureLoader.load(FeatureLoader.java:23)&#13;
+	at cucumber.runtime.FeaturePathFeatureSupplier.get(FeaturePathFeatureSupplier.java:33)&#13;
+	at cucumber.api.junit.Cucumber.&lt;init&gt;(Cucumber.java:94)&#13;
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)&#13;
+	at org.junit.internal.builders.AnnotatedBuilder.buildRunner(AnnotatedBuilder.java:104)&#13;
+	at org.junit.internal.builders.AnnotatedBuilder.runnerForClass(AnnotatedBuilder.java:86)&#13;
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:70)&#13;
+	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:37)&#13;
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:70)&#13;
+	at org.junit.internal.requests.ClassRequest.createRunner(ClassRequest.java:28)&#13;
+	at org.junit.internal.requests.MemoizingRequest.getRunner(MemoizingRequest.java:19)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestLoader.createUnfilteredTest(JUnit4TestLoader.java:90)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestLoader.createTest(JUnit4TestLoader.java:76)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestLoader.loadTests(JUnit4TestLoader.java:49)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:513)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)&#13;
+Caused by: gherkin.ParserException$CompositeParserException: Parser errors:
+(4:2): expected: #EOF, #TableRow, #DocStringSeparator, #StepLine, #TagLine, #ScenarioLine, #ScenarioOutlineLine, #Comment, #Empty, got 'when user opens url "http://amazon.com"'&#13;
+	at gherkin.Parser.parse(Parser.java:143)&#13;
+	at gherkin.Parser.parse(Parser.java:118)&#13;
+	at gherkin.Parser.parse(Parser.java:114)&#13;
+	at cucumber.runtime.model.FeatureParser.parseResource(FeatureParser.java:36)&#13;
+	... 23 more&#13;
+&#13;
+</error>
+    </testcase>
+  </testsuite>
+</testrun>
